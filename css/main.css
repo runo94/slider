@@ -71,6 +71,10 @@
   width: 26px;
 }
 
+.inner-slides-right-side {
+    z-index: 999;
+}
+
 /* .slide.wrapper .inner-slides-left-side .inner-block::after {
     content: "";
     height: 100%;
@@ -132,7 +136,7 @@
     display: none;
 }
 
-.slide.wrapper #sprite-wrapp .sprite svg.man-hoodie-black.active {
+.slide.wrapper #sprite-wrapp .sprite svg.man-hoodie.active {
     position: absolute;
     z-index: 99;
     top: 5px;
@@ -141,7 +145,7 @@
     opacity: .9;
 }
 
-.slide.wrapper #sprite-wrapp .sprite svg.man-t-shirt-black.active {
+.slide.wrapper #sprite-wrapp .sprite svg.man-t-shirt.active {
     position: absolute;
     z-index: 99;
     top: 5px;
@@ -149,6 +153,45 @@
     display: block;
     opacity: .9;
 }
+
+.slide.wrapper #sprite-wrapp .sprite svg.woman-t-shirt.active {
+    position: absolute;
+    z-index: 99;
+    top: 24px;
+    left: 35px;
+    display: block;
+    opacity: .9;
+}
+
+.slide.wrapper #sprite-wrapp .sprite svg.woman-hoodie.active {
+    position: absolute;
+    z-index: 99;
+    top: 24px;
+    left: 35px;
+    display: block;
+    opacity: .9;
+}
+
+.slide.wrapper #sprite-wrapp .sprite svg.kid-hoodie.active {
+    position: absolute;
+    z-index: 99;    
+    top: 60px;
+    left: 50px;
+    display: block;
+    opacity: .9;
+}
+
+
+.slide.wrapper #sprite-wrapp .sprite svg.kid-t-shirt.active {
+    position: absolute;
+    z-index: 99;    
+    top: 60px;
+    left: 50px;
+    display: block;
+    opacity: .9;
+}
+
+
 
 .slide.wrapper #sprite-wrapp img.man-t-shirt {
   transform: matrix(1, 0, 0, 1, -607, -96);
@@ -190,6 +233,7 @@
     border: 1px solid rgba(224, 224, 224, 0.7);
     border-radius: 50%;
     margin: 10px 0;
+    cursor: pointer;
 }
 
 .color#white {
